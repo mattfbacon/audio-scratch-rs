@@ -1,0 +1,9 @@
+[package]
+name = "audio-scratch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ctrlc = "3"
+once_cell = { version = "1", default-features = false }
+rand = "0.8"
